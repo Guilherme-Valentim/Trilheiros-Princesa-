@@ -81,7 +81,15 @@
     filter: blur(40px);
     z-index: 1;
     pointer-events: none
-    }</style>
+    }
+.glass-card{
+    background: rgba(10,10,10,.85);
+    backdrop-filter: blur(20px);
+    box-shadow:
+        0 0 40px rgba(198,255,0,.08),
+        inset 0 0 1px rgba(255,255,255,.2);
+}
+</style>
 </head>
 <body class="bg-background text-on-surface font-body-md overflow-x-hidden selection:bg-primary selection:text-background">
 <!-- Fixed Background Image -->
