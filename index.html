@@ -108,77 +108,111 @@
             </p>
 </header>
 <!-- CARD PRÓXIMA TRILHA -->
+<!-- CARD PRÓXIMA TRILHA -->
 <section class="w-full mb-6">
+    <div class="glass-card rounded-[30px] overflow-hidden border border-lime-400/40 bg-black/80 backdrop-blur-md">
 
-    <div class="glass-card rounded-card overflow-hidden">
+        <!-- IMAGEM -->
+        <div class="relative">
 
-        <!-- FOTO PRINCIPAL -->
-        <img
-            src="assets/pico do jabre.jpeg"
-            alt="Pico do Jabre"
-            class="w-full h-48 object-cover"
-        >
+            <img
+                src="assets/pico do jabre.jpeg"
+                alt="Pico do Jabre"
+                class="w-full h-56 object-cover"
+            >
 
-        <div class="p-5">
-
-            <div class="flex items-center gap-2 mb-3">
-                <span class="material-symbols-outlined">
-                    landscape
-                </span>
-
-                <span class="font-label-sm text-primary tracking-[0.2em] uppercase">
+            <!-- Badge -->
+            <div class="absolute bottom-4 left-4">
+                <span class="flex items-center gap-2 px-4 py-2 rounded-full border border-lime-400 text-lime-400 text-xs uppercase tracking-widest bg-black/60 backdrop-blur">
+                    <span class="material-symbols-outlined text-sm">
+                        landscape
+                    </span>
                     Próxima Trilha
                 </span>
             </div>
 
-            <h2 class="text-white text-2xl font-bold mb-4">
-                Pico do Jabre
-                 <p class="text-xs text-on-surface-variant uppercase">Ponto mais alto da Paraíba  </p>
-            </h2>
-            
+        </div>
 
-            <!-- DATA -->
-            <div class="flex items-center gap-3 mb-3">
-                <span class="material-symbols-outlined">
-                    calendar_month
-                </span>
+        <div class="p-5">
+
+            <!-- TOPO -->
+            <div class="flex justify-between items-start gap-4">
 
                 <div>
-                    <p class="text-xs text-on-surface-variant uppercase">
+                    <h2 class="text-white text-4xl font-bold leading-none">
+                        Pico do Jabre
+                    </h2>
+
+                    <p class="text-lime-400 uppercase text-sm font-semibold mt-2">
+                        Ponto mais alto da Paraíba
+                    </p>
+
+                    <p class="text-gray-300 mt-4 text-sm leading-relaxed">
+                        Uma experiência inesquecível para ver o pôr do sol
+                        no ponto mais alto da Paraíba.
+                    </p>
+                </div>
+
+                <!-- PREÇO -->
+                <div class="min-w-[120px] border border-lime-400/30 rounded-2xl p-4 text-center bg-white/5">
+
+                    <p class="text-xs uppercase text-gray-400">
+                        Valor
+                    </p>
+
+                    <p class="text-3xl font-bold text-lime-400 mt-2">
+                        R$ 42,50
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- INFORMAÇÕES -->
+            <div class="grid grid-cols-3 gap-3 mt-6">
+
+                <div class="bg-white/5 rounded-2xl p-3">
+                    <span class="material-symbols-outlined text-lime-400">
+                        calendar_month
+                    </span>
+
+                    <p class="text-[11px] uppercase text-gray-400 mt-2">
                         Data
                     </p>
 
                     <p class="text-white font-semibold">
                         28/06/2026
                     </p>
+
+                    <p class="text-gray-400 text-sm">
+                        Domingo
+                    </p>
                 </div>
-            </div>
 
-            <!-- LOCAL -->
-            <div class="flex items-center gap-3 mb-3">
-                <span class="material-symbols-outlined">
-                    location_on
-                </span>
+                <div class="bg-white/5 rounded-2xl p-3">
+                    <span class="material-symbols-outlined text-lime-400">
+                        location_on
+                    </span>
 
-                <div>
-                    <p class="text-xs text-on-surface-variant uppercase">
+                    <p class="text-[11px] uppercase text-gray-400 mt-2">
                         Local
                     </p>
 
                     <p class="text-white font-semibold">
-                        Pico do Jabre • Maturéia - PB
+                        Pico do Jabre
+                    </p>
+
+                    <p class="text-gray-400 text-sm">
+                        Maturéia - PB
                     </p>
                 </div>
-            </div>
 
-            <!-- OBJETIVO -->
-            <div class="flex items-center gap-3">
-                <span class="material-symbols-outlined">
-                    wb_sunny
-                </span>
+                <div class="bg-white/5 rounded-2xl p-3">
+                    <span class="material-symbols-outlined text-lime-400">
+                        wb_sunny
+                    </span>
 
-                <div>
-                    <p class="text-xs text-on-surface-variant uppercase">
+                    <p class="text-[11px] uppercase text-gray-400 mt-2">
                         Objetivo
                     </p>
 
@@ -186,29 +220,22 @@
                         Ver o pôr do sol
                     </p>
                 </div>
-                <div>
-                    <p class="text-xs text-on-surface-variant uppercase">
-                        Valor
-                    </p>
 
-                    <p class="text-white font-semibold">
-                        42,50
-                    </p>
-                </div>
             </div>
 
-            <!-- BOTÃO -->
+            <!-- CTA -->
             <a
-                href="https://chat.whatsapp.com/GH7igXW8noZLBOtyCDEQnZ"
+                href="https://chat.whatsapp.com/DBylIMoHqohBpndhaEhhCI"
                 target="_blank"
-                class="mt-5 block w-full text-center bg-primary text-black font-bold py-3 rounded-xl"
+                class="mt-6 flex items-center justify-center gap-3 bg-lime-400 text-black font-bold text-lg py-4 rounded-2xl hover:scale-[1.02] transition-all"
             >
+
                 Reservar Minha Vaga
             </a>
 
+
         </div>
     </div>
-
 </section>
         
 <nav class="w-full space-y-4 mb-10">
