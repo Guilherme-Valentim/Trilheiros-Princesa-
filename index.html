@@ -117,24 +117,31 @@
 </header>
 <!-- CARD PRÓXIMA TRILHA -->
 <section class="w-full mb-6">
-    <div class="glass-card rounded-[30px] overflow-hidden border border-lime-400/40 bg-black/80 backdrop-blur-md">
+    <div class="glass-card rounded-[30px] overflow-hidden border border-red-500/40 bg-black/80 backdrop-blur-md">
 
-        <!-- IMAGEM -->
         <div class="relative">
 
             <img
                 src="assets/pico do jabre.jpeg"
                 alt="Pico do Jabre"
-                class="w-full h-56 object-cover"
+                class="w-full h-56 object-cover grayscale-[20%]"
             >
 
-            <!-- Badge -->
             <div class="absolute bottom-4 left-4">
-                <span class="flex items-center gap-2 px-4 py-2 rounded-full border border-lime-400 text-lime-400 text-xs uppercase tracking-widest bg-black/60 backdrop-blur">
+                <span class="flex items-center gap-2 px-4 py-2 rounded-full border border-red-500 text-red-500 text-xs uppercase tracking-widest bg-black/60 backdrop-blur">
                     <span class="material-symbols-outlined text-sm">
                         landscape
                     </span>
-                    Próxima Trilha
+                    Trilha Encerrada
+                </span>
+            </div>
+
+            <div class="absolute top-4 right-4">
+                <span class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-red-600 text-white text-xs font-bold uppercase tracking-wider shadow-lg animate-pulse">
+                    <span class="material-symbols-outlined text-sm">
+                        error
+                    </span>
+                    Vagas Esgotadas!
                 </span>
             </div>
 
@@ -142,7 +149,6 @@
 
         <div class="p-5">
 
-            <!-- TOPO -->
             <div class="flex justify-between items-start gap-4">
 
                 <div>
@@ -150,24 +156,23 @@
                         Pico do Jabre
                     </h2>
 
-                    <p class="text-lime-400 uppercase text-sm font-semibold mt-2">
+                    <p class="text-red-400 uppercase text-sm font-semibold mt-2">
                         Ponto mais alto da Paraíba
                     </p>
 
-                    <p class="text-gray-300 mt-4 text-sm leading-relaxed">
+                    <p class="text-gray-400 mt-4 text-sm leading-relaxed">
                         Uma experiência inesquecível para ver o pôr do sol
                         no ponto mais alto da Paraíba.
                     </p>
                 </div>
 
-                <!-- PREÇO -->
-                <div class="min-w-[120px] border border-lime-400/30 rounded-2xl p-4 text-center bg-white/5">
+                <div class="min-w-[120px] border border-red-500/20 rounded-2xl p-4 text-center bg-red-500/5">
 
-                    <p class="text-xs uppercase text-gray-400">
+                    <p class="text-xs uppercase text-zinc-500">
                         Valor
                     </p>
 
-                    <p class="text-3xl font-bold text-lime-400 mt-2">
+                    <p class="text-3xl font-bold text-zinc-500 line-through mt-2">
                         R$ 42,50
                     </p>
 
@@ -175,76 +180,72 @@
 
             </div>
 
-            <!-- INFORMAÇÕES -->
             <div class="grid grid-cols-3 gap-3 mt-6">
 
-                <div class="bg-white/5 rounded-2xl p-3">
-                    <span class="material-symbols-outlined text-lime-400">
+                <div class="bg-white/5 rounded-2xl p-3 border border-zinc-800">
+                    <span class="material-symbols-outlined text-red-400">
                         calendar_month
                     </span>
 
-                    <p class="text-[11px] uppercase text-gray-400 mt-2">
+                    <p class="text-[11px] uppercase text-gray-500 mt-2">
                         Data
                     </p>
 
-                    <p class="text-white font-semibold">
+                    <p class="text-zinc-400 font-semibold line-through">
                         28/06/2026
                     </p>
 
-                    <p class="text-gray-400 text-sm">
+                    <p class="text-zinc-500 text-sm">
                         Domingo
                     </p>
                 </div>
 
-                <div class="bg-white/5 rounded-2xl p-3">
-                    <span class="material-symbols-outlined text-lime-400">
+                <div class="bg-white/5 rounded-2xl p-3 border border-zinc-800">
+                    <span class="material-symbols-outlined text-red-400">
                         location_on
                     </span>
 
-                    <p class="text-[11px] uppercase text-gray-400 mt-2">
+                    <p class="text-[11px] uppercase text-gray-500 mt-2">
                         Local
                     </p>
 
-                    <p class="text-white font-semibold">
+                    <p class="text-zinc-400 font-semibold">
                         Pico do Jabre
                     </p>
 
-                    <p class="text-gray-400 text-sm">
+                    <p class="text-zinc-500 text-sm">
                         Maturéia - PB
                     </p>
                 </div>
 
-                <div class="bg-white/5 rounded-2xl p-3">
-                    <span class="material-symbols-outlined text-lime-400">
+                <div class="bg-white/5 rounded-2xl p-3 border border-zinc-800">
+                    <span class="material-symbols-outlined text-red-400">
                         wb_sunny
                     </span>
 
-                    <p class="text-[11px] uppercase text-gray-400 mt-2">
+                    <p class="text-[11px] uppercase text-gray-500 mt-2">
                         Objetivo
                     </p>
 
-                    <p class="text-white font-semibold">
-                        Ver o pôr do sol
+                    <p class="text-zinc-400 font-semibold">
+                        Pôr do sol
                     </p>
                 </div>
 
             </div>
 
-            <!-- CTA -->
             <a
                 href="https://chat.whatsapp.com/GH7igXW8noZLBOtyCDEQnZ"
                 target="_blank"
-                class="mt-6 flex items-center justify-center gap-3 bg-lime-400 text-black font-bold text-lg py-4 rounded-2xl hover:scale-[1.02] transition-all"
+                class="mt-6 flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 text-white font-bold text-lg py-4 rounded-2xl hover:scale-[1.01] transition-all text-center"
             >
-
-                Reservar Minha Vaga
+                <span class="material-symbols-outlined">group</span>
+                Ficar por dentro das próximas datas
             </a>
-
 
         </div>
     </div>
 </section>
-        
 <nav class="w-full space-y-4 mb-10">
     <a class="glass-card w-full rounded-card p-5 flex items-center group relative overflow-hidden" href="https://wa.me/5583996633259?text=Ol%C3%A1%2C%20Tudo%20bem%2C%20Gostaria%20de%20saber%20sobre%20%C3%A1s%20trilhas" target="_blank">
     <div class="absolute inset-0 opacity-5 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/topography.png')]"></div>
